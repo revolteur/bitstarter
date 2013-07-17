@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 var fs = require('fs');
-var index = fs.readFileSync('./index.html', 'utf8');
-// var buffer = new Buffer(256);
-// buffer.write(index);
+var index = fs.readFileSync('./index.html');
 
 
 var express = require('express');
