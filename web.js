@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var fs = require('fs');
 var index = fs.readFileSync('index.html');
 var buffer = new Buffer(256);
